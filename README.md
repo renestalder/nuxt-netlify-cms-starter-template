@@ -59,7 +59,7 @@ with a CMS at the same time. It's all about saving time, saving money and especi
 * [x] **Pre-rendering:** Uses Nuxt.js to pre-render your Vuejs website to static HTML files.
   * [x] **Easy dynamic route rendering**: Allows to map glob patterns to your Nuxt.js page paths.
         This (partially) removes the need to define all dynamic routes by hand.
-        [ ] **Automatic mapping dynamic routes for pre-render:**: No more need to define dynamic routes manually.
+  * [ ] **Automatic mapping dynamic routes for pre-render:**: No more need to define dynamic routes manually.
         Netlify CMS and Nuxt.js sync their routes automatically.
 * [x] **CMS:** Allows to edit content without the need of a server, thanks to Netlify CMS.
 
