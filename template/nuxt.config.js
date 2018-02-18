@@ -29,6 +29,12 @@ module.exports = {
   */
   loading: { color: '#3B8070' },
   /*
+  ** Route config for pre-rendering
+  */
+  generate: {
+    routes: dynamicRoutes
+  },
+  /*
   ** Build configuration
   */
   build: {
