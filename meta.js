@@ -1,6 +1,6 @@
 module.exports = {
   helpers: {
-    raw: function(options) {
+    raw: function (options) {
       return options.fn(this)
     }
   },
@@ -14,7 +14,7 @@ module.exports = {
       'type': 'string',
       'required': false,
       'message': 'Project description',
-      'default': 'Nuxt.js project'
+      'default': 'Nuxt.js + Netlify CMS project'
     },
     author: {
       'type': 'string',
