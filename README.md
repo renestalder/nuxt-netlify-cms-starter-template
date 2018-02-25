@@ -13,7 +13,7 @@ Live demo: Coming soon.
 
 ## Installation
 
-This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
+**Step 1** This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ``` bash
 $ vue init renestalder/nuxt-netlify-cms-starter-template my-project  
@@ -23,6 +23,10 @@ $ npm install # Or yarn install
 ```
 
 > Make sure to use a version of vue-cli >= 2.1 (`vue -V`).
+
+**Step 2** Push to GitHub & to Netlify
+
+> Make sure to enable both Netlify's **identity** and **git-checkout** services under `https://app.netlify.com/sites/YOUR_SITE/settings/identity`
 
 ## Usage
 
