@@ -11,7 +11,7 @@ Live demo: Coming soon.
 * Make sure to have `node 8.0+` and `npm 5.0+` installed
 * You know what Netlify CMS and Nuxt.js is.
 
-## Installation
+## Installation and Usage
 
 **Step 1** This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
@@ -26,9 +26,9 @@ $ npm install # Or yarn install
 
 **Step 2** Init git repo and push to your preferred provider (GitHub, Bitbucket or Gitlab)
 ``` bash
-# initialize git
 $ git init
 $ git add .
+$ git commit -m "first commit"
 $ git remote add origin [repo url]
 $ git push # assuming a repo has created
 ```
@@ -38,9 +38,6 @@ $ git push # assuming a repo has created
 - choose the repo
 - fill `npm run generate` to _Build command_ and `dist` to _Publish directory_
 - enable **Identity Service** and **Git Gateway** on `https://app.netlify.com/sites/*YOUR_SITE*/settings/identity`
-> Make sure to enable both Netlify's **identity** and **git-checkout** services under `https://app.netlify.com/sites/YOUR_SITE/settings/identity`
-
-## Usage
 
 ### Configuration
 
