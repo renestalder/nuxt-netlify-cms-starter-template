@@ -26,7 +26,7 @@ $ npm install # Or yarn install
 
 **Step 2** Push to GitHub & to Netlify
 
-> Make sure to enable both Netlify's **identity** and **git-checkout** services under `https://app.netlify.com/sites/YOUR_SITE/settings/identity`
+> Make sure to enable both Netlify's **identity** and **git-gateway** services under `https://app.netlify.com/sites/YOUR_SITE/settings/identity`
 
 ## Usage
 
