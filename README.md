@@ -24,8 +24,20 @@ $ npm install # Or yarn install
 
 > Make sure to use a version of vue-cli >= 2.1 (`vue -V`).
 
-**Step 2** Push to GitHub & to Netlify
-
+**Step 2** Init git repo and push to your preferred provider (GitHub, Bitbucket or Gitlab)
+``` bash
+# initialize git
+$ git init
+$ git add .
+$ git remote add origin [repo url]
+$ git push # assuming a repo has created
+```
+**Step 3** Host to Netlify
+- create a `new site from Git` on [Netlify app](https://app.netlify.com/start) 
+- choose and authorize your git provider
+- choose the repo
+- fill `npm run generate` to _Build command_ and `dist` to _Publish directory_
+- enable **Identity Service** and **Git Gateway** on `https://app.netlify.com/sites/*YOUR_SITE*/settings/identity`
 > Make sure to enable both Netlify's **identity** and **git-checkout** services under `https://app.netlify.com/sites/YOUR_SITE/settings/identity`
 
 ## Usage
