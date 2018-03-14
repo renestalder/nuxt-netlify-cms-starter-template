@@ -12,22 +12,16 @@
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue';
+import { contentLoader } from '~/assets/core/mixins/content-loader';
 
 export default {
-  components: {
-    AppLogo
-  },
+  mixins: [contentLoader],
   data() {
     // Using webpacks context to gather all files from a folder
-    const context = require.context('~/content/blog/posts/', false, /\.json$/);
 
-    const posts = context.keys().map(key => ({
-      ...context(key),
-      _path: `/blog/${key.replace('.json', '').replace('./', '')}`
-    }));
-
-    return { posts };
+    const posts = this.getContentList('~/content/blog/posts/', 'json', '/blog');
+    console.log(posts);
+    return posts;
   }
 };
 </script>

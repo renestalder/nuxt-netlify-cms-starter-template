@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "vue init . test && cd test && npm install"
+    "test": "vue init . test && cd test && npm install && npm run generate"
   },
   "repository": {
     "type": "git",
