@@ -1,4 +1,4 @@
-#!/usr/bin/env expect
+#!/usr/bin/expect
 set timeout 360
 
 spawn ./node_modules/.bin/vue init . test
