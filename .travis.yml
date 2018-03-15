@@ -5,6 +5,11 @@ cache:
   directories:
     - "node_modules"
 
+before_install:
+  # APT
+  - sudo apt -qq update
+  - sudo apt install -y expect
+
 before_script:
   - chmod +x generate.exp
   - ./generate.exp
