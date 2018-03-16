@@ -3,7 +3,7 @@
     <h2>Blog</h2>
     <ul>
       <li v-for="post in posts" :key="post.date">
-        <nuxt-link :to="post._path">
+        <nuxt-link :to="post._meta.path">
           {{ post.title }}
         </nuxt-link>
       </li>
@@ -17,11 +17,9 @@ import { contentLoader } from '~/assets/core/mixins/content-loader';
 export default {
   mixins: [contentLoader],
   data() {
-    // Using webpacks context to gather all files from a folder
-
-    const posts = this.getContentList('~/content/blog/posts/', 'json', '/blog');
+    const posts = this.queryContentAll('/blog/posts/', '/blog');
     console.log(posts);
-    return posts;
+    return { posts };
   }
 };
 </script>
