@@ -18,7 +18,6 @@ export default {
   mixins: [contentLoader],
   data() {
     const posts = this.queryContentAll('/blog/posts/', '/blog');
-    console.log(posts);
     return { posts };
   }
 };
