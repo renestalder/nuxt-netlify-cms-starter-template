@@ -30,10 +30,29 @@ module.exports = {
   loading: { color: '#3B8070' },
   /*
   ** Route config for pre-rendering
+  ** TODO: Remove when nuxtent is added
   */
   generate: {
     routes: dynamicRoutes
   },
+  modules: [
+    'nuxtent'
+  ],
+  api: function(isStatic) {
+    return {
+      browserBaseURL: isStatic ? 'http://production-url.com' : ''
+    }
+  },
+  content: [
+    ["posts", {
+      page: '/content/blog/posts/_slug',
+      permalink: ':slug',
+      generate: [
+        'get',
+        'getAll'
+      ]
+    }]
+  ],
   /*
   ** Build configuration
   */
