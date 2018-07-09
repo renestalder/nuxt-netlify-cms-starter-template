@@ -14,5 +14,5 @@ before_script:
   - chmod +x generate.exp
   - ./generate.exp
   - cd test
-  - npm install
+  - npm ci
   - npm run generate
