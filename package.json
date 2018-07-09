@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/renestalder/nuxt-netlify-cms-starter-template#readme",
   "devDependencies": {
-    "@vue/cli": "^3.0.0-beta.6",
-    "@vue/cli-init": "^3.0.0-beta.6"
+    "@vue/cli": "^3.0.0-rc.3",
+    "@vue/cli-init": "^3.0.0-rc.3"
   }
 }
