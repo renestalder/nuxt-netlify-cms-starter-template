@@ -9,6 +9,7 @@ before_install:
   # APT
   - sudo apt -qq update
   - sudo apt install -y expect
+  - npm i -g npm@6.1.0
 
 before_script:
   - chmod +x generate.exp
