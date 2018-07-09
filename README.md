@@ -149,3 +149,21 @@ Nuxt.js, you can simply switch to server-rendering as soon
 as the static, server-less behaviour does not longer fit
 your needs. It's as easy as switching two commands in your
 build system (and probably changing those window instances that don't work server-side).
+
+## Development
+
+This section describes steps for direct contribution to this template.
+
+1. Checkout git repository.
+2. Install dependencies.
+  ```sh
+  $ npm install
+  ```
+3. Automatically install and build the template to a test folder.
+  ```sh
+  $ npm run test
+  ```
+
+Now, whenever you make changes to the source files in `template/`, you can directly test the installation
+and the build. It isn't possible to directly build the project inside `template/` due to variables
+that get replaced during the vue init steps.
