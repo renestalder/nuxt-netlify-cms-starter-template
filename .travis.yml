@@ -17,4 +17,5 @@ before_script:
   - chmod +x generate.exp
   - ./generate.exp
   - cd test
-  - npm run generate
+  - npm ci # Install template dependencies for testing
+  - npm run generate # Generate test project
