@@ -10,10 +10,11 @@ before_install:
   - sudo apt -qq update
   - sudo apt install -y expect
   - npm i -g npm@6.1.0
+  - npm --version
 
 before_script:
+  - npm --version
   - chmod +x generate.exp
   - ./generate.exp
   - cd test
-  - npm ci
   - npm run generate
