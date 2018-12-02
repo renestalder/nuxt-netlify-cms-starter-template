@@ -88,6 +88,6 @@ For this particular example we use following libraries and frameworks:
 
 ## Contribution
 
-If you're interested in contributing to the project, see [CONTRIBUTING.md](contributing)
+If you're interested in contributing to the project, see [CONTRIBUTING.md][contributing]
 
 [contributing]: https://github.com/renestalder/nuxt-netlify-cms-starter-template/blob/feature/frontmatter/CONTRIBUTING.md
