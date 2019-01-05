@@ -2,6 +2,8 @@
 
 # Nuxt.js + Netlify CMS starter template
 
+[![Build Status](https://travis-ci.org/renestalder/nuxt-netlify-cms-starter-template.svg?branch=master)](https://travis-ci.org/renestalder/nuxt-netlify-cms-starter-template)
+
 > Build server-less, static websites with Vue.js and Netlify CMS.
 
 This is a starter template to build static websites with Vue.js and Netlify CMS, based on Nuxt v1.x. What it covers:
