@@ -1,4 +1,6 @@
-<p align="center"><img width="386" src="https://raw.githubusercontent.com/renestalder/nuxt-netlify-cms-starter-template/master/docs/nuxt-netlify.svg" alt="Nuxt Netlify Logo"></p>
+<p align="center">
+  <img width="386" src="https://raw.githubusercontent.com/renestalder/nuxt-netlify-cms-starter-template/master/docs/nuxt-netlify.svg?sanitize=true" alt="Nuxt Netlify Logo" />
+</p>
 
 # Nuxt.js + Netlify CMS starter template
 
