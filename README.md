@@ -101,7 +101,7 @@ While the other commands from Nuxt.js remain in this starter kit, we clearly foc
 
 If you're interested in contributing to the project, see [CONTRIBUTING.md][contributing]
 
-[contributing]: https://github.com/renestalder/nuxt-netlify-cms-starter-template/blob/feature/frontmatter/CONTRIBUTING.md
+[contributing]: ./CONTRIBUTING.md
 [netlifydocs]: https://www.netlifycms.org/docs/configuration-options/
 [nuxtdownreadme]: https://github.com/joostdecock/nuxtdown-module/blob/master/README.md
 [nuxtconfig]: https://nuxtjs.org/guide/configuration
