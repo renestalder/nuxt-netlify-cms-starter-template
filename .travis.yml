@@ -1,10 +1,5 @@
 language: node_js
 cache: npm
 
-before_install:
-  # APT
-  - npm i -g npm@6.1.0
-  - npm --version
-
 script:
   - npm run test # Generate test project
