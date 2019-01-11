@@ -8,7 +8,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "vue init . test && cd test && npm install && npm run generate"
+    "ci:test": "node generate-test.js && cd test && npm install && npm run generate",
+    "vue-cli:init": "rm -rf test && vue init . test"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
   "homepage": "https://github.com/renestalder/nuxt-netlify-cms-starter-template#readme",
   "devDependencies": {
     "@vue/cli": "^3.2.3",
-    "@vue/cli-init": "^3.2.0"
+    "@vue/cli-init": "^3.2.0",
+    "suppose": "^0.6.2"
   }
 }

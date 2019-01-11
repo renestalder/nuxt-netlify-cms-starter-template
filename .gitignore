@@ -1,5 +1,6 @@
 node_modules/
 test/
+generate-test.debug.txt
 
 # Common
 

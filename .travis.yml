@@ -1,21 +1,5 @@
-sudo: required
-
 language: node_js
-cache:
-  directories:
-    - "node_modules"
+cache: npm
 
-before_install:
-  # APT
-  - sudo apt -qq update
-  - sudo apt install -y expect
-  - npm i -g npm@6.1.0
-  - npm --version
-
-before_script:
-  - npm --version
-  - chmod +x generate.exp
-  - ./generate.exp
-  - cd test
-  - npm install # Install template dependencies for testing. Use install instead of CI to reflect fresh install
-  - npm run generate # Generate test project
+script:
+  - npm run test # Generate test project
