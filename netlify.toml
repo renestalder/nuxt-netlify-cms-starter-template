@@ -1,0 +1,12 @@
+[build]
+  publish = "test/dist/"
+  command = "npm run ci:test"
+
+[context.production]
+  command = "BASE_URL=$URL npm run ci:test"
+
+[context.deploy-preview]
+  command = "BASE_URL=$DEPLOY_PRIME_URL npm run ci:test"
+
+[context.branch-deploy]
+  command = "BASE_URL=$DEPLOY_URL npm run ci:test"

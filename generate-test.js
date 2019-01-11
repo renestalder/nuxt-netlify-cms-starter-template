@@ -1,7 +1,7 @@
 var suppose = require('suppose');
 var fs = require('fs');
 
-suppose('npm', ['run', 'generate'], { debug: fs.createWriteStream('generate-test.debug.txt') })
+suppose('npm', ['run', 'vue-cli:init'], { debug: fs.createWriteStream('generate-test.debug.txt') })
     .when(/Project name\.*/).respond('\n')
     .when(/Project description\.*/).respond('\n')
     .when(/Author\.*/).respond('\n')
