@@ -8,8 +8,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node generate-test.js",
-    "generate": "rm -rf test && vue init . test && cd test && npm install && npm run generate"
+    "test": "node generate-test.js && cd test && npm install && npm run generate",
+    "generate": "rm -rf test && vue init . test"
   },
   "repository": {
     "type": "git",
