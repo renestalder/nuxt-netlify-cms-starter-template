@@ -35,6 +35,7 @@ This is a starter template to build static websites with Vue.js and Netlify CMS,
             - [Manual deployment via FTP](#manual-deployment-via-ftp)
             - [Deploy to Netlify](#deploy-to-netlify)
             - [Deploy with other CI solutions](#deploy-with-other-ci-solutions)
+    - [Known issues](#known-issues)
     - [Contribution](#contribution)
 
 <!-- /TOC -->
@@ -112,6 +113,10 @@ The folder of your generated project will contain a `netlify-example.toml` file 
 #### Deploy with other CI solutions
 
 If you use other CI solutions, you always have to make sure, that the environment variable `BASE_URL` is set to the URL where the website will run. Tools like GitLab allow you to set *environment variables* in the settings of the project and make it easy to use what ever way you want to deploy your project.
+
+## Known issues
+
+* **Doesn't work with Nuxt v2.3.0 and higher**: There are some changes in Nuxt v2.3.0 that are not compatible with Nuxtdown/Nuxtent. That's why the version is currently fixed at v2.2.x.
 
 ## Contribution
 
