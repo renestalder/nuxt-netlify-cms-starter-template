@@ -1,10 +1,7 @@
 module.exports = {
   api: function(isStatic) {
-    let baseURL = "http://localhost:3000";
-    let browserBaseURL = "";
-
-    const envUrl = process.env.BASE_URL || "http://localhost:3000";
-    browserBaseURL = !isStatic ? "" : envUrl;
+    const baseURL = "http://localhost:3000";
+    const browserBaseURL = !isStatic ? "" : process.env.BASE_URL;
 
     return {
       baseURL,

@@ -9,11 +9,11 @@ This section describes steps for direct contribution to this template.
 1. Checkout git repository.
 2. Install dependencies.
   ```sh
-  $ npm install
+  $ npm ci # or npm i
   ```
 3. Automatically install and build the template to a test folder.
   ```sh
-  $ npm run test
+  $ npm run ci:test
   ```
 
 Now, whenever you make changes to the source files in `template/`, you can directly test the installation
