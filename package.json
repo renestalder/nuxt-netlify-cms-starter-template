@@ -1,6 +1,6 @@
 {
   "name": "nuxt-netlify-cms-starter-template",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Build server-less, static websites with Vue.js and Netlify CMS.",
   "main": "meta.js",
   "private": true,
