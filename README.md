@@ -102,7 +102,7 @@ $ npm run generate
 To make it work on your production server, the build needs to know the final url/domain where the site will run. For this, you can edit the `npm generate:manual` task in the `package.json` and set your production URL. This is useful when you manually deploy your website:
 
 ```bash
-# generate a static project that will be hostet on the URL given in package.json
+# generate a static project that will be hosted on the URL given in package.json
 $ npm run generate:manual
 ```
 
